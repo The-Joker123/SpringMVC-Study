@@ -13,6 +13,7 @@
         <module>springmvc-02-hellomvc</module>
         <module>springmvc-03-annotation</module>
         <module>springmvc-04-controller</module>
+        <module>springmvc-05-controller</module>
     </modules>
     <dependencies>
         <dependency>
@@ -39,6 +40,16 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.12.2</version>
         </dependency>
     </dependencies>
 
